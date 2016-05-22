@@ -6,7 +6,7 @@
         });
       }
 
-      var gmurl="https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+78259&radius=1000&key=AIzaSyCBf_LgqHPFPxbBUk4Cv4AUaexm56EgyS8&callback=?"
+      var gmurl="https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+78259&radius=1000&key=MYKEY&callback=?"
       //	var gmurl="https://maps.googleapis.com/maps/api/place/radarsearch/json?location=51.503186,-0.126446&radius=5000&type=museum&key=AIzaSyCBf_LgqHPFPxbBUk4Cv4AUaexm56EgyS8&callback=?"
 
       var listRes ={
