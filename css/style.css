@@ -1,0 +1,25 @@
+
+ #map {
+    width: 600px;
+    height: 500px;
+    background-color: #CCC;
+    position: absolute;
+    right: 0px;
+   	top: 10px;
+    
+  }
+#control{
+		color: blue;
+		padding: 20px 30px 10px 30px;
+	}
+
+	#control input[type=text]{
+		width: 20%;
+		height: 20px;
+		font-size: 14px;
+		
+		
+
+}
+
+

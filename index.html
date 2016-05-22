@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<title>Local Restauranrs</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <script language="javascript" type="text/javascript" src="ko/knockout-3.4.0.js"></script>
+	 <script src="js/libs/jquery.min.js"></script>
+	 <script language="javascript" type="text/javascript" src="js/map.js"> </script>
+		 
+	 
+  </head>
+  <body>
+  
+	<div id="control">
+		<h2>Local Restaurants</h2>
+		<p>Enter Zip Code to Start</p>
+		<input data-bind="value:ZipCode">
+		<p>
+		<button data-bind="click:disZipCode">Search</button>
+		<p>
+			<input data-bind="visible:flagZip" type="text" name="">
+			<button data-bind="visible:flagZip" type="button" onclick="alert('Hello world!')">Filter</button>
+		</p>
+
+<script language="javascript" type="text/javascript" src="js/main.js">
+
+</script>
+
+	</p>
+	</div>
+	<div id="map"></div>
+	<script> initMap;</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBf_LgqHPFPxbBUk4Cv4AUaexm56EgyS8&callback=initMap"
+        async defer></script>
+ 
+
+</html>
